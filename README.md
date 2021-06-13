@@ -14,6 +14,10 @@
 
  3. [三栏三式布局](./2016-part1/task3.html)
 
+ 4. [定位和居中问题](./2016-part1/task4.html)
+
+ 5. [零基础HTML及CSS编码](./2016-part1/task5.html)
+
     
 
 
