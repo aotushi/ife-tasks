@@ -18,7 +18,21 @@
 
  5. [零基础HTML及CSS编码](./2016-part1/task5.html)
 
+ 6. [任务六：通过HTML及CSS模拟报纸排版](./2016-part1/task5.html)
+
+    ```md
+    1.块元素中左右两个行内块, 右侧如果没有设置这vertical-align:top 这个行内块元素会下移.
     
+    2.calc(8.5px - 122px) 运算符两侧需要有空格
+    
+    3.font-size:0;后br的高度为0
+    
+    4. margin全为负值
+    ```
+
+    
+
+
 
 
 
