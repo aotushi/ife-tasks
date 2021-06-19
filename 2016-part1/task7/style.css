@@ -469,7 +469,7 @@ section#part7 .col-3:before{
   position: absolute;
   top: 50%;
   left: -20px;
-  margin-top: -20px;
+  margin-top: -40px;
   content:'';
   width: 0;
   height: 0;
