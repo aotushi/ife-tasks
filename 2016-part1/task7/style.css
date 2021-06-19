@@ -383,3 +383,159 @@ section#part6 #border input[type='radio']:nth-of-type(2):checked~.info-2{
 section#part6 #border input[type='radio']:nth-of-type(3):checked~.info-3{
   display: block;
 }
+section#part7{
+  position: relative;
+  top: 17px;
+  height: 518px;
+  font-size: 0;
+}
+section#part7 .col{
+  display: inline-block;
+  height: 518px;
+}
+section#part7 .col-1{
+  vertical-align: top;
+  width: 33.3%;
+  background: #e53c3c;
+  color: #fff;
+  font-size: 20px;
+}
+section#part7 .col-1 .new{
+  width: 160px;
+  margin: 200px auto;
+  text-align: center;
+}
+section#part7 .line{
+  width: 20%;
+  border: 1px solid #fff;
+  margin: 0 0 25px 63px;
+}
+.col-1 .new .line-1{
+  width: 20%;
+  border: 1px solid #fff;
+}
+section#part7 button{
+  width: 100%;
+  height: 42px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.col-1 button{
+  background: #e53c3c;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.4s ease-in-out;
+}
+.col-1 button:hover{
+  background: #fff;
+  color: #e53c3c;
+  border: 1px solid #e53c3c;
+}
+section#part7 .col-2{
+  vertical-align: top;
+  width: 33.3%;
+  background: #fff;
+  color: #e53c3c;
+  font-size: 20px;
+}
+.col-2 .new{
+  width: 160px;
+  margin: 200px auto;
+  text-align: center;
+}
+section#part7 .col-2 .line-2{
+  width: 20%;
+  border: 1px solid #a8a8a8;
+}
+.col-2 button{
+  background: #fff;
+  color: #e53c3c;
+  border: 1px solid #e53c3c;
+  transition: all 0.4s ease-in-out;
+}
+.col-2 button:hover{
+  background: #e53c3c;
+  color: #fff;
+  border: 1px solid #a8a8a8;
+}
+section#part7 .col-3{
+  position: relative;
+  top: 0;
+  width: 33.3%;
+  background: url(picture/pic08.jpg) no-repeat;
+  background-size: cover;
+}
+section#part7 .col-3:before{
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  margin-top: -20px;
+  content:'';
+  width: 0;
+  height: 0;
+  border: 40px solid;
+  border-color: transparent transparent transparent #fff;
+}
+section#part8{
+  position: relative;
+  top: 17px;
+  height:800px;
+  /* background: lightblue; */
+  overflow: hidden;
+  /* 解决外边距塌陷问题: 父元素设置overflow; 父元素浮动;子元素浮动 */
+}
+section#part8 #mark1{
+  height: 300px;
+  text-align: center;
+}
+section#part8 #mark1 h3{
+  margin: 100px auto 10px auto;
+}
+section#part8 #mark1 .line{
+  width: 3%;
+  height: 2px;
+  margin: 0 auto;
+  background: rgb(255,0,0);
+}
+section#part8 #mark1 p{
+  color: #a8a8a8;
+  font-size: 14px; 
+}
+section#part8 #mark2{
+  height: 500px;
+  /* font-size: 0; */
+  /* 解决行内块间隙有5种方法: 字体为0后续处理较多.本次使用注释符 */
+}
+section#part8 .mark{
+  display: inline-block;
+  height: 500px;
+}
+section#part8 #mark2 .mark-1{
+  width: 40%;
+  vertical-align: top;
+}
+section#part8 #mark2 .mark-2{
+  width: 60%;
+  background: lightcoral;
+}
+section#part8 #mark2 .mark-1-1{
+  position: relative;
+  left: 25%;
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+}
+section#part8 #mark2 .mark-1-1 h4{
+  line-height: 0;
+}
+section#part8 #mark2 .mark-1-1 p{
+  color: #a8a8a8;
+  font-size: 14px;
+}
+#mark2 .mark-1-1 a{
+  position: absolute;
+  left: 68%;
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+}
