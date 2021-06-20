@@ -516,7 +516,7 @@ section#part8 #mark2 .mark-1{
 }
 section#part8 #mark2 .mark-2{
   width: 60%;
-  background: lightcoral;
+  /* background: lightcoral; */
 }
 section#part8 #mark2 .mark-1-1{
   position: relative;
@@ -538,4 +538,102 @@ section#part8 #mark2 .mark-1-1 p{
   color: #000;
   font-size: 14px;
   text-decoration: none;
+}
+section#part8 #mark2 .mark-2-1{
+  height: 500px;
+  text-align: center;
+}
+section#part8 #mark2 .mark-2-1 input[type='name']{
+  width: 350px;
+  height: 40px;
+  margin: 8px;
+  background: #d3d3d3;
+  border: 1px solid #d3d3d3;
+  opacity: .6;
+}
+section#part8 #mark2 .mark-2-1 textarea{
+  width: 724px;
+  margin: 8px;
+  border: 1px solid #d3d3d3;
+  opacity: .6;
+  background: #d3d3d3;
+  resize: none;
+}
+section#part8 #mark2 .mark-2-1 input[type='submit'] {
+  width: 730px;
+  height: 40px;
+  margin: 0 8px;
+  border: 1px solid #d3d3d3;
+  opacity: .6;
+  cursor: pointer;
+  background: #d3d3d3;
+}
+section#part9{
+  position: relative;
+  top: 17px;
+  height: 400px;
+  color: #fff;
+  background: #131426;
+  text-align: center;
+
+  /* overflow: hidden; */
+  /* 解决外边距塌陷. 第一个p元素的上下外边距为25px 因为user-agent默认margin样式 1em*/
+}
+section#part9 p{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+section#part9 p:first-child{
+  font-size: 25px;
+  padding-top: 120px;
+}
+section#part9 p:last-of-type{
+  margin: 1em 0;
+}
+section#part9 form{
+  font-size: 0;
+  /* 解决两个行内块input之间的间距 */
+}
+section#part9 input[type='email'] {
+  width: 30%;
+  height: 30px;
+  color: #a8a8a8;
+}
+section#part9 input[type='submit'] {
+  width: 4%;
+  height: 36px;
+  background: #777;
+  color: #fff;
+  border: 1px solid #777;
+  cursor: pointer;
+
+  vertical-align: top;
+  /* 两个input对齐.  或者在email的input中设置 */
+}
+section#part9 img{
+  margin: 20px;
+  cursor: pointer;
+}
+section#part10 {
+  position: relative;
+  top: 17px;
+  height: 60px;
+  background: #111;
+  color: #fff;
+  font-size: 14px;
+  line-height: 60px;
+}
+section#part10 span{
+  margin-left: 75%;
+  /* position: relative;
+  top: 20px; */
+}
+section#part10 span:first-child{
+  margin-left: 10%;
+}
+section#part10 span a{
+  text-decoration: none;
+  color: #fff;
+  
 }
