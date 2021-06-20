@@ -87,6 +87,33 @@
 
     11. 单选按钮+空div+display:none实现多个模块的切换
 
+    12. resize属性
+
+         ```css
+         resize: none;
+         
+         1.c3中新增属性,可以应用道任何元素. 目前只有webkit内核浏览器支持,即Chrome与safari.
+         2.Webkit内核会默认resize值为both,即用户可以调节宽度和高度. 即右下角有一个可以控制缩放的按钮.
+         3.textarea是被固定宽度和高度的，如果你不愿意让其任意缩放，你可以为textarea添加resize:none的css属性
+         4.
+         none：用户不能操纵机制调节元素的尺寸；
+         both：用户可以调节元素的宽度和高度；
+         horizontal：用户可以调节元素的宽度；
+         vertical：让用户可以调节元素的高度；
+         inherit：默认继承
+         ```
+
+    13. last-child伪元素选择器失效
+
+         ```css
+         div p:last-child，这个选择器的生效条件其实是div最后一个子元素必须是p
+         
+         解决方法:
+         p:last-of-type
+         ```
+
+         
+
  8. xxxx
 
  9. 
