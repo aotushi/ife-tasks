@@ -8,17 +8,17 @@
 
 #### 任务Part1 Demo(html/css)
 
- 1. xxxxx
+ 1. ##### xxxxx
 
- 2. xxxxx
+ 2. ##### xxxxx
 
- 3. [三栏三式布局](./2016-part1/task3.html)
+ 3. ##### [三栏三式布局](./2016-part1/task3.html)
 
- 4. [定位和居中问题](./2016-part1/task4.html)
+ 4. ##### [定位和居中问题](./2016-part1/task4.html)
 
- 5. [零基础HTML及CSS编码](./2016-part1/task5.html)
+ 5. ##### [零基础HTML及CSS编码](./2016-part1/task5.html)
 
- 6. [任务六：通过HTML及CSS模拟报纸排版](./2016-part1/task6.html)
+ 6. ##### [任务六：通过HTML及CSS模拟报纸排版](./2016-part1/task6.html)
 
     ```js
     1.块元素中左右两个行内块, 右侧如果没有设置这vertical-align:top 这个行内块元素会下移.
@@ -32,15 +32,15 @@
 
     
 
- 7. [任务七：实现常见的技术产品官网的页面架构及样式布局](./2016-part1/task7/task7.html)
+ 7. ##### [任务七：实现常见的技术产品官网的页面架构及样式布局](./2016-part1/task7/task7.html)
 
     1. <li>转换成行内块做导航后,没有使用line-height. 文字没有移动,反而是ul整体向下移动了.  基线?
 
     2. 通用兄弟选择器 ~
 
     3. ul与li实现导航. 使用另外的li实现底部红色border
-      3.1 div中的ul整体下移2px,已经加了padding/margin为0. 父元素<nav>使用vertical-align:top; 默认设置为baseline
-      //https://stackoverflow.com/questions/13390220/why-does-an-inline-block-div-get-positioned-lower-when-it-has-content/
+        3.1 div中的ul整体下移2px,已经加了padding/margin为0. 父元素<nav>使用vertical-align:top; 默认设置为baseline
+        //https://stackoverflow.com/questions/13390220/why-does-an-inline-block-div-get-positioned-lower-when-it-has-content/
 
     4. background-size: 100% auto;
 
@@ -48,11 +48,11 @@
      原因: https://www.cnblogs.com/starof/p/4512284.html https://mxd.tencent.com/1862.html
 
     6. letter-spacing:30px;
-      7.p标签的padding与margin均为0,line-height也为0, 那么p的高度为0.但文字还能显示一部分; 如果line-height不设置为0,p的高度为字体高度+基线高度?
+        7.p标签的padding与margin均为0,line-height也为0, 那么p的高度为0.但文字还能显示一部分; 如果line-height不设置为0,p的高度为字体高度+基线高度?
       
     7. 图片一侧三角形实现
-      7.1 伪元素+border
-      7.2 伪元素
+        7.1 伪元素+border
+        7.2 伪元素
 
       ```css
       //8.1 用border比较好吧. 可以少写一些. 虽然都由可能覆盖右侧内容,
@@ -114,9 +114,35 @@
 
          
 
- 8. xxxx
+ 8. ##### xxxx
 
- 9. 
+ 9. ##### [使用HTML/CSS实现一个复杂页面](./2016-part1/task9/task9.html)
+
+    A. form表单中的input框实现垂直居中
+
+    ```js
+    1.form设置height,line-height后,input框依然无法垂直居中
+    2.input使用绝对定位,form使用相对定位. input应该使用怪异盒子来实现固定高度
+    input {
+      position: absolute;
+      top: 50%;
+      margin-top: -(input高度的一半);
+    }
+    
+    3.input边框颜色设置为与背景色相同 
+      border: 1px solid #3299cc;
+    ```
+
+    B. div#headright中的span位置下移
+
+    ```js
+    span设置vertical-align: top;解决
+    
+    回顾vertical-align 
+    https://developer.mozilla.org/zh-CN/docs/Web/CSS/vertical-align
+    ```
+
+    
 
 
 
